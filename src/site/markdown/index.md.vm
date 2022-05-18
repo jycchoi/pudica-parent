@@ -1,0 +1,23 @@
+This parent POM contains the common settings for the Pudica library components.
+
+Usage
+=====
+Specify this parent POM in your project POM file as follows:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.pudica</groupId>
+    <artifactId>pudica-parent</artifactId>
+    <version>${project.version}</version>
+  </parent>
+
+  <groupId>com.example</groupId>
+  <artifactId>my-project</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+</project>
+```
