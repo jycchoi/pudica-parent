@@ -33,4 +33,3 @@ target/
 *.[ejrw]ar
 *~
 **/.mvn/timing.properties
-**/.mvn/wrapper/maven-wrapper.jar
