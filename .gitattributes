@@ -1,3 +1,8 @@
 * text=auto
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
 *.java text diff=java
 *.md text diff=markdown
+*.sh text eol=lf diff=bash
+mvnw text eol=lf diff=bash

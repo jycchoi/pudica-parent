@@ -28,6 +28,7 @@ $RECYCLE.BIN/
 .settings/
 .shelf/
 .tern-project
+.vscode/
 ._*
 Network Trash Folder/
 RemoteSystemsTempFiles/

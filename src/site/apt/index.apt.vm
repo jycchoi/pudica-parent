@@ -8,8 +8,7 @@
 
 About Pudica Parent
 
-  This parent POM contains the common settings for the Pudica library
-  components.
+  This parent POM contains common settings for building Maven projects.
 
 * Usage
 
